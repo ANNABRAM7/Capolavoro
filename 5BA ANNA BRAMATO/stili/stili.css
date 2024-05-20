@@ -1,0 +1,311 @@
+header {	
+			
+		padding: 0;
+		margin: 0;
+		width: 100%; 
+		height: 700px;
+		overflow: hidden;
+		
+	
+		
+		
+	
+}
+header  h1{
+		font-family: Verdana;
+		font-size: 120px; 
+		letter-spacing: 0.3px;
+		z-index: 1;
+		position: absolute;
+		top: 40%;
+		left: 94px; 
+		transform: translateY(-50%);	
+		line-height: 0.9;
+		text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+	}
+	
+	.verde {
+		color:#174E15;
+	}
+	
+	.bianco {
+		color: #FCFCF2; 
+	
+	}
+	
+	.rosso {
+		color: #7B0F03; 
+	}
+
+ header img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; 
+		opacity: 1;
+		position: fixed;
+		width: 100%;
+		z-index: -1;
+		
+		}
+		
+
+
+body {
+	padding: 0 ; 
+	margin:0; 
+	
+}
+
+
+nav {
+	background-color: #A61414; 
+	height: 70px;
+	padding: 0px; 
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.7);
+	
+
+}
+
+nav li{
+	display:inline;
+	text-align: center;
+	padding: 5px; 
+}
+
+nav a {
+	text-decoration: none; 
+	color: #FCFCF2; 
+    font-family: Verdana; 
+    font-size: 17px;
+	flex-grow: 1; 
+    flex-basis: 0;
+	margin-right: 35px;
+	
+}
+
+nav a:hover {
+    text-decoration: underline; 
+	font-size: 18px;
+	color: #3D7324; 
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+  
+    display: flex;
+	justify-content: space-around; }
+	
+	
+aside{
+	background-color:#FCFCF2;
+	float:right;
+	padding: 0; 
+	border-left: 30px; 
+	width: 275px; 
+	padding-left: 20px; 
+
+}
+
+aside h4  {
+	font-size: 31px; 
+	color: #174E15; 
+	font-family: Verdana; 
+}
+aside a {
+	color: #174E15; 
+font-size: 20px; 
+font-family: Verdana; 
+
+}
+aside a:hover {
+    text-decoration: underline; 
+	font-size: 21px;
+	 
+color: #7B0F03; }
+	
+aside li {
+	color: #174E15; 
+font-size: 20px; 
+font-family: Verdana; 
+
+  
+}
+aside li:hover {
+	color: #7B0F03; 
+font-size: 20px; 
+font-family: Verdana; 
+
+  
+}
+aside ul {
+    padding:0; 
+    margin-right: 15px; 
+    margin-left: 20px;}
+
+.rep {
+ 	height:27%;
+}
+.cos {
+ 	height:28%;
+}
+.div {
+ 	height:29%;
+}
+.fig {
+ 	height:47%; 
+}
+
+.cor {
+ 	height:23%;
+}
+
+.link  {
+	margin-top: -30px;
+
+	
+    	
+}
+
+section{
+	border-right: 74px solid transparent; 
+	height:1000PX;
+	border-left: 74px solid transparent;
+	margin-top: -1030px; 
+}
+article{
+ font-family: verdana; 
+ color: #000000; 
+ width: 76%; 
+background-color: #FCFCF2; 
+margin: 10px;
+padding-bottom:5px; 
+
+}
+
+article a {
+	color: #000000;
+}
+
+article a:hover {
+    text-decoration: underline; 
+	font-size: 20px;
+	color: #7B0F03; 
+	
+}
+
+
+article img  {
+	float:right; 
+	width: 30%; 
+	padding: 15px; 
+}
+
+
+article li {
+	
+	color: #000000; 
+	font-family: verdana;
+	font-size: 19px; 
+	
+	
+}
+article li::marker {
+	
+color: #7B0F03; }
+article h3 {
+	font-size: 30px; 
+	padding-left: 20px; 
+	padding-top: 15px; 
+	padding-right: 20px; 
+	color: #A61414;
+	
+
+}
+
+article p {
+	font-size: 19px; 
+	padding-left: 20px; 
+    padding-right: 20px; 
+	
+    
+	
+	
+}
+.GIALLO {
+	color: #F2CB05; 
+}
+.meme:hover {
+	font-size: 30px; 
+	color: #A61414;
+		text-decoration: none; 
+}
+.meme{
+	font-size: 30px; 
+	color: #A61414;
+text-decoration: none; }
+
+footer {
+	background-color: #A61414; 
+	height: 180px;
+	margin-top: 280px; 
+	display: flex;
+	width: 100%;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.7);
+	align-items: center;
+    justify-content: space-between;
+    text-align: left;
+
+}
+.costy {
+	margin-top: 740px; 
+}	
+.divy {
+	margin-top: 1080px; 
+}	
+.figu {
+	margin-top: 1400px; 
+}
+.cort {
+	margin-top: 330px; 
+}
+footer p { 
+		font-family:Verdana;
+		font-size: 22px; 
+		color:#FCFCF2;
+		margin: 0;
+		line-height: 1.1;
+		left: 280px; 
+		position: absolute;
+	
+}
+	
+footer a {
+	color: #FCFCF2;
+	text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+	font-size: 23px;
+	color: #3D7324; 
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);}
+	
+footer img{
+	border-radius: 70px;   
+	width: 140px;	
+	left: 94px;
+	position: absolute;	}
+
+
+
+
+
+
+
+
